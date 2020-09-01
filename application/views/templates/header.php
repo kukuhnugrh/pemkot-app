@@ -10,7 +10,7 @@
 
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <title> <?php echo $judul ?></title>
+    <title> Pemerintah Kota Yogyakarta </title>
   </head>
   <body>
 
@@ -26,13 +26,13 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="<?php base_url() ?>home">Beranda <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">ODP</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mitra</a>
+            <a class="nav-link" href="<?php base_url() ?>mitra_kerjasama">Mitra</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,3 +54,10 @@
       </div>
     </div>
   </nav>
+  <!-- Main Content -->
+  <div class="main-content">
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-heading text-uppercase"><?php echo $judul ?></div>
+        </div>
+    </header>

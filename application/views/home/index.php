@@ -1,11 +1,3 @@
-<!-- Main Content -->
-<div class="main-content">
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-subheading">SELAMAT DATANG DI WEBSITE</div>
-            <div class="masthead-heading text-uppercase">PEMERINTAH KOTA YOGYAKARTA</div>
-        </div>
-    </header>
     <!-- Fasilitas-->
     <section class="section" >
         <div class="section-body">
@@ -23,11 +15,13 @@
                     <p class="text-muted">Untuk ODP Pemerintah Kota Yogyakarta</p>
                 </div>
                 <div class="col-md-3">
-                    <span class="fa-stack fa-3x">
-                        <img src="assets/img/Logo_Kota_Yogyakarta.png" class="rounded-circle" alt="Cinque Terre" style="width:25%">
-                    </span>
-                    <h4 class="my-3">MITRA KERJA SAMA</h4>
-                    <p class="text-muted">Untuk Pemda lain, Kementrian/Lembaha/Badan, Swasta, Yayasan, Perseorangan, dan Lembaga di Luar Negeri</p>
+                    <a href="<?php base_url() ?>mitra_kerjasama">
+                        <span class="fa-stack fa-3x">
+                            <img src="assets/img/Logo_Kota_Yogyakarta.png" class="rounded-circle" alt="Cinque Terre" style="width:25%">
+                        </span>
+                        <h4 class="my-3">MITRA KERJA SAMA</h4>
+                        <p class="text-muted">Untuk Pemda lain, Kementrian/Lembaha/Badan, Swasta, Yayasan, Perseorangan, dan Lembaga di Luar Negeri</p>
+                    </a>
                 </div>
                 <div class="col-md-3">
                     <span class="fa-stack fa-3x">

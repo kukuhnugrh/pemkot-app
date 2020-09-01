@@ -52,3 +52,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+//Routing subpage_1
+$route['odp'] = 'odp';
+$route['mitra_kerjasama'] = 'mitra';
+$route['informasi_kerjasama'] = 'informasi_kerjasama';
+$route['konsultasi'] = 'konsultasi';
+
+//Routing subpage_2
+//Gajadi ternyata cuman ngelink ke web lain anying

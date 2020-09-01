@@ -1,13 +1,13 @@
 <?php
 
-class Home extends CI_Controller {
+class Mitra extends CI_Controller {
 
     public function index()
     {   
-        $data['judul'] = "SELAMAT DATANG DI WEBSITE PEMERINTAH KOTA YOGYAKARTA";
+        $data['judul'] = "PROSEDUR KERJASAMA DAERAH";
         $this->load->helper('url'); 
         $this->load->view('templates/header', $data);
-        $this->load->view('home/index');
+        $this->load->view('subpage_1/mitra');
         $this->load->view('templates/footer');
     }
 }
