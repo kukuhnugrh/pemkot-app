@@ -2,8 +2,10 @@
 <div class="main-content">
     <header class="masthead">
         <div class="container">
-            <div class="masthead-subheading">SELAMAT DATANG DI WEBSITE</div>
-            <div class="masthead-heading text-uppercase">PEMERINTAH KOTA YOGYAKARTA</div>
+            <div class="masthead-subheading">SELAMAT DATANG DI </div>
+            <div class="masthead-heading text-uppercase"> PORTAL FASILITASI KERJA SAMA DAERAH</div>
+            <button class="btn btn-outline-dark my-1 " type="submit">Masuk</button>
+          
         </div>
     </header>
     <!-- Fasilitas-->
@@ -16,28 +18,28 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-3">
-                    <span class="fa-stack fa-3x">
+                    <span class="fa-stack fa-5x">
                         <img src="assets/img/Logo_Kota_Yogyakarta.png" class="rounded-circle" alt="Cinque Terre" style="width:25%">
                     </span>
-                    <h4 class="my-3">ODP</h4>
-                    <p class="text-muted">Untuk ODP Pemerintah Kota Yogyakarta</p>
+                    <h4 class="my-3">OPD</h4>
+                    <p class="text-muted">Untuk OPD Pemerintah Kota Yogyakarta</p>
                 </div>
                 <div class="col-md-3">
-                    <span class="fa-stack fa-3x">
+                    <span class="fa-stack fa-5x">
                         <img src="assets/img/Logo_Kota_Yogyakarta.png" class="rounded-circle" alt="Cinque Terre" style="width:25%">
                     </span>
                     <h4 class="my-3">MITRA KERJA SAMA</h4>
                     <p class="text-muted">Untuk Pemda lain, Kementrian/Lembaha/Badan, Swasta, Yayasan, Perseorangan, dan Lembaga di Luar Negeri</p>
                 </div>
                 <div class="col-md-3">
-                    <span class="fa-stack fa-3x">
+                    <span class="fa-stack fa-5x">
                         <img src="assets/img/Logo_Kota_Yogyakarta.png" class="rounded-circle" alt="Cinque Terre" style="width:25%">
                     </span>
                     <h4 class="my-3">INFORMASI KERJA SAMA</h4>
                     <p class="text-muted">Informasi Umum Tentang Kerja Sama Daerah</p>
                 </div>
                 <div class="col-md-3">
-                    <span class="fa-stack fa-3x">
+                    <span class="fa-stack fa-5x">
                         <img src="assets/img/Logo_Kota_Yogyakarta.png" class="rounded-circle" alt="Cinque Terre" style="width:25%">
                     </span>
                     <h4 class="my-3">KONSULTASI</h4>
