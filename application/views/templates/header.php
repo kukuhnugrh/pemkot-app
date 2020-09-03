@@ -35,12 +35,9 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">OPD</a>
-              <a class="dropdown-item" href="#">Mitra</a>
+              <a class="dropdown-item nav-link" href="<?php base_url() ?>mitra_kerjasama">Mitra</a>
               <a class="dropdown-item" href="#">Informasi Umum</a>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="<?php base_url() ?>mitra_kerjasama">Mitra</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -67,9 +64,3 @@
     </div>
   </nav>
   <!-- Main Content -->
-  <div class="main-content">
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-heading text-uppercase"><?php echo $judul ?></div>
-        </div>
-    </header>
