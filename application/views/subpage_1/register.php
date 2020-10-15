@@ -12,7 +12,7 @@
      <link rel="stylesheet" href="assets/css/register.css">
 </head>
 <div class="main-content">
-	<section class ="container-fluid bg">
+	<section class ="container-fluid">
       <section class="row justify-content-center">
          <section class="col-12 col-sm-6 col-md-6">
             <form class="form-container">
@@ -23,30 +23,37 @@
               <div class="form-row">
 
                 <div class="form-group col-md-7">
-                  <label for="inputEmail4">Nama Organisasi</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Nama Organisasi">
+                  <label for="inputNamaOrganisasi">Nama Organisasi</label>
+                  <input type="text" class="form-control" id="inputNamaOrganisasi" placeholder="Nama Organisasi">
                 </div>
                 <div class="form-group col-md-5">
-                  <label for="inputPassword4">Nomor telepon</label>
-                  <input type="text" class="form-control" id="inputPassword4" placeholder="Nomor telepon organisasi">
+                  <label for="inputnomorTelepon">Nomor telepon</label>
+                  <input type="text" class="form-control" id="inputnomorTelepon" placeholder="Nomor telepon organisasi">
                 </div>
               </div>
-             <div class="form-group">
-                <label for="exampleFormControlSelect1">Jenis Organisasi</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option selected>Pilih Jenis Organisasi</option>
-                  <option va>OPD/Unit Kerja di Pemerintah Kota Yogyakarta</option>
-                  <option>OPD/Unit Kerja di Pemda DIY</option>
-                  <option>OPD/Unit Kerja di Pemda lain</option>
-                  <option>Badan Usaha Berbadan Hukum</option>
-                  <option>Kementrian/Badan/Lembaga (instansi vertikal)</option>
-                  <option>Organisasi Kemasyarakatan (berbadan hukum/tidak berbadan hukum)</option>
-                  <option>Perseorangan</option>
-                  <option>Perwakilan Pemerintah RI di Luar Negeri</option>
-                  <option>Pemerintah Daerah di Luar Negeri</option>
-                  <option>Organisasi Internasional</option>
-                </select>
-             </div>
+              <div class="form-row">
+                    <div class="form-group col-md-7">
+                        <label for="exampleFormControlSelect1">Jenis Organisasi</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option selected>Pilih Jenis Organisasi</option>
+                          <option va>OPD/Unit Kerja di Pemerintah Kota Yogyakarta</option>
+                          <option>OPD/Unit Kerja di Pemda DIY</option>
+                          <option>OPD/Unit Kerja di Pemda lain</option>
+                          <option>Badan Usaha Berbadan Hukum</option>
+                          <option>Kementrian/Badan/Lembaga (instansi vertikal)</option>
+                          <option>Organisasi Kemasyarakatan (berbadan hukum/tidak berbadan hukum)</option>
+                          <option>Perseorangan</option>
+                          <option>Perwakilan Pemerintah RI di Luar Negeri</option>
+                          <option>Pemerintah Daerah di Luar Negeri</option>
+                          <option>Organisasi Internasional</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-5">
+                      <label for="inputWebsite">Website atau Social Media</label>
+                      <input type="text" class="form-control" id="inputWebsite" placeholder="Website atau social media">
+                    </div>
+              </div>
+             
               <div class="form-row">
                 <div class="form-group col-md-12">
                   <label for="inputAddress">Alamat kantor</label>
@@ -57,33 +64,82 @@
             <h4>Data Perwakilan Perusahaan</h4>
             <div class="form-row">
               <div class="form-group col-md-12">
-                  <label for="inputEmail4">Nama Lengkap</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Nama lengkap sesuai KTP">
+                  <label for="inputnamaLengkap">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="inputnamaLengkap" placeholder="Nama lengkap sesuai KTP">
                 </div>
               
             </div>
             <div class='form-row'>
               <div class="form-group col-md-7">
-                  <label for="inputEmail4">Email Pribadi</label>
-                  <input type="text" class="form-control" id="inputEmail4" placeholder="Email pribadi">
+                  <label for="inputEmailPribadi">Email Pribadi</label>
+                  <input type="email" class="form-control" id="inputEmailPribadi" placeholder="Email pribadi">
                 </div>
                 <div class="form-group col-md-5">
-                  <label for="inputEmail4">Nomor Handphone</label>
-                  <input type="text" class="form-control" id="inputEmail4" placeholder="No. Handphone Pribadi">
+                  <label for="inputNomorHP">Nomor Handphone</label>
+                  <input type="text" class="form-control" id="inputNomorHP" placeholder="No. Handphone Pribadi">
                 </div>
                 
             </div>
             <div class="form-row">
               <div class="form-group col-md-7">
-                  <label for="inputEmail4">Email Organisasi</label>
-                  <input type="text" class="form-control" id="inputEmail4" placeholder="Email kantor">
+                  <label for="inputEmailOrganisasi">Email Organisasi</label>
+                  <input type="email" class="form-control" id="inputEmailOrganisasi" placeholder="Email kantor">
                 </div>
               <div class="form-group col-md-5">
-                  <label for="inputEmail4">Jabatan di Organisasi</label>
-                  <input type="text" class="form-control" id="inputEmail4" placeholder="Jabatan">
+                  <label for="inputJabatan">Jabatan di Organisasi</label>
+                  <input type="text" class="form-control" id="inputJabatan" placeholder="Jabatan">
               </div>
             </div>
-              <button type="submit" class="btn btn-primary btn-block">Masuk</button>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="tujuan">Tujuan Registrasi</label>
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label" for="exampleRadios1">
+                        Sebagai PPKSD
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                      <label class="form-check-label" for="exampleRadios2">
+                        Melakukan kerja sama daerah
+                      </label>
+                    </div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="fotoProfil">Pilih Foto Profil</label>
+                  <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Choose file</label>
+                  </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputKonfirmasiPassword">Konfirmasi Password</label>
+                <input type="password" class="form-control" id="inputKonfirmasiPassword" placeholder="Konfirmasi password">
+              </div>
+            </div>
+            <hr>
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Saya menyatakan bahwa informasi yang saya berikan adalah benar</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                <label class="custom-control-label" for="customCheck2">Dengan mengisi formulir ini saya memberikan izin kepada Pemerintah Kota Yogyakarta untuk menggunakan informasi yang saya berikan untuk kepentingan pengambilan kebijakan dalam melaksanakan kerja sama daerah</label>
+              </div>
+            </div>
+
+            
+              
+          
+              <button type="submit" class="btn btn-primary btn-block">Daftar</button>
               <p style="font-size: 12px">Punya akun mitra? <a href="http://localhost/pemkot-app-LOGIN_REGIS/login">Masuk di sini</a></p>
             </form>
             <section></section>
