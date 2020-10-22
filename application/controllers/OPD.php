@@ -4,7 +4,7 @@ class OPD extends CI_Controller {
 
     public function index()
     {   
-        $data['judul'] = "PROSEDUR KERJASAMA DAERAH";
+        $data['judul'] = "PANDUAN UNTUK ORGANISAI PERAGKAT DAERAH / OPD";
         $this->load->helper('url'); 
         $this->load->view('templates/header', $data);
         $this->load->view('subpage_1/opd');

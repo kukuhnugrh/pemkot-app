@@ -60,3 +60,4 @@ $route['konsultasi'] = 'konsultasi';
 
 //Routing subpage_2
 //Gajadi ternyata cuman ngelink ke web lain anying
+$route['odp'] = 'odp';
