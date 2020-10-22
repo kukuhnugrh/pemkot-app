@@ -1,3 +1,14 @@
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+</head>
+
 <div class="main-content">
   <!-- Main Content -->
   <header class="masthead">
@@ -7,47 +18,83 @@
         <button class="btn btn-outline-dark my-1 " type="submit">Masuk</button>
     </div>
   </header>
-  <section class="section" >
-  <div class="section-body">
-      <div class="text-center">
-          <h2 class="section-heading text-uppercase box-title">Fasilitas</h2>
-          <br>
-          <br>
-      </div>
-      <div class="row text-center">
-          <div class="col-md-3">
-              <span class="fa-stack fa-3x">
-                  <img src="assets/img/Logo_Kota_Yogyakarta.png" class="rounded-circle" alt="Cinque Terre" style="width:25%">
-              </span>
-              <h4 class="my-3">ODP</h4>
-              <p class="text-muted">Untuk ODP Pemerintah Kota Yogyakarta</p>
-          </div>
-          <div class="col-md-3">
-              <a href="<?php base_url() ?>mitra_kerjasama">
-                  <span class="fa-stack fa-3x">
-                      <img src="assets/img/Logo_Kota_Yogyakarta.png" class="rounded-circle" alt="Cinque Terre" style="width:25%">
-                  </span>
-                  <h4 class="my-3">MITRA KERJA SAMA</h4>
-                  <p class="text-muted">Untuk Pemda lain, Kementrian/Lembaha/Badan, Swasta, Yayasan, Perseorangan, dan Lembaga di Luar Negeri</p>
-              </a>
-          </div>
-          <div class="col-md-3">
-              <span class="fa-stack fa-3x">
-                  <img src="assets/img/Logo_Kota_Yogyakarta.png" class="rounded-circle" alt="Cinque Terre" style="width:25%">
-              </span>
-              <h4 class="my-3">INFORMASI KERJA SAMA</h4>
-              <p class="text-muted">Informasi Umum Tentang Kerja Sama Daerah</p>
-          </div>
-          <div class="col-md-3">
-              <span class="fa-stack fa-3x">
-                  <img src="assets/img/Logo_Kota_Yogyakarta.png" class="rounded-circle" alt="Cinque Terre" style="width:25%">
-              </span>
-              <h4 class="my-3">KONSULTASI</h4>
-              <p class="text-muted">Ya buat konsultasi bro</p>
-          </div>
-      </div>
+<div class="main-content">
+  <!-- Main Content -->
+  <header class="masthead">
+    <div class="container">
+      <div class="masthead-heading text-uppercase">PORTAL KERJASAMA DAERAH</div>
+      <div class="masthead-heading text-uppercase">PEMERINTAHAHAN KOTA YOGYAKARTA</div>
+      <div class="masthead-heading text-uppercase">BAGIAN MITRA KERJASAMA</div>
+
+    </div>
+  </header>
+  <!-- Fasilitas-->
+
+  <!-- Isi Halaman Mitra -->
+  <div class="section-body" >
+    <div class="col-md-12" style="background-color: #e6e6e6; height: 180px;  text-align: center; font-size: 18px;" >
+      <p class="text1" style="color: black">Halaman ini kami tujukan <strong>untuk pihak yang berencana untuk mengajukan inisisasi kerja sama daerah </strong>(KSD) kepada Pemerintah Yogyakarta. </p>
+
+      <p class="text2" style="color: black">Tata cara pelaksanaan KSD antara pemerintah daerah di seluruh Indonesia dengan entitas swasta (non-pemerintahan) dalam negeri diatur dalam <strong> Peraturan Menteri Dalam Negeri Republik Indonesia Nomor 22 Tahun 2020 </strong>(klik <a href="https://drive.google.com/file/d/19ULMldzI5y9rQNOnWbe0hdqDdN0DCE_R/view">di sini</a>).</p>
+
+      <p class="text3" style="color: black">Untuk melaksanakan inisiasi kerja sama dengan Pemerintah Kota Yogyakarta, <strong> kami persilahkan Anda untuk mengikuti prosedur di bawah ini. Pilihlah sesuai dengan jenis organisasi yang Anda wakili. </strong></p>
+    </div>
   </div>
-  </section>
+
+
+  <!-- Isi tab konten langkah2 -->
+  <div class="section-container">
+
+    <!-- begin pagination-->
+    <div class="pagination-container">
+     <ul class="nav nav-pills justify-content-center" role="tablist">
+
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="pill" href="#menu1">Lembaga Swasta Dalam Negeri</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#menu2">Kementrian/Lembaga/Badan </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#menu3">Pemerintah Daerah Lain di Indonesia</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#menu4">Lembaga Internasional</a>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- end pagination -->
+  <!-- Tab panes -->
+  <div class="tab-content">
+
+    <div class="container tab-pane active" id="menu1" ><br>
+      <iframe src="http://localhost/pemkot-app-PRODUCTION/panduan" height="390" width="100%" style="border-style: solid;" title="Iframe Example" scrolling="no">
+      </iframe>
+    </div>
+
+    <div class="container tab-pane fade" id="menu2" ><br>
+      <iframe src="http://localhost/pemkot-app-PRODUCTION/panduan_2" height="490" width="100%" style="border-style: solid;" title="Iframe Example" scrolling="no">
+      </iframe>
+    </div>
+
+    <div class="container tab-pane fade" id="menu3" ><br>
+      <iframe src="http://localhost/pemkot-app-PRODUCTION/panduan_3" height="390" width="100%" style="border-style: solid;" title="Iframe Example" scrolling="no">
+      </iframe>
+    </div>
+
+    <div class="container tab-pane fade" id="menu4" ><br>
+      <iframe src="http://localhost/pemkot-app-PRODUCTION/panduan_4" height="450" width="100%" style="border-style: solid;" title="Iframe Example" scrolling="no">
+      </iframe>
+    </div>
+
+  </div>
+</div>
+
   <!-- Footer-->
   <footer class="footer py-4">
       <div class="container">
@@ -85,32 +132,3 @@
       </div>
       
   </footer>
-
-<script>
-window.onload = function(e){ 
-    $("#myModal").modal("show");
-}
-</script>
-<!-- MODAL -->
-<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">PESAN PENTING</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h7><strong>1. </strong>Halaman ini kami tujukan <strong>untuk pihak yang berencana untuk mengajukan inisiasi kerja sama daerah</strong> (KSD) kepada Pemerintah Kota Yogyakarta.</h7>
-        <br><br>
-        <h7><strong>2. </strong>Tata cara pelaksanaan KSD antara pemerintah daerah di seluruh Indonesia dengan entitas swasta (non-pemerintahan) dalam negeri diatur dalam <strong>Peraturan Menteri Dalam Negeri Republik Indonesia Nomor 22 Tahun 2020</strong> (klik <a href="https://drive.google.com/file/d/19ULMldzI5y9rQNOnWbe0hdqDdN0DCE_R/view" target="_blank"><strong>di sini</strong></a>).</h7>
-        <br><br>   
-        <h7><strong>3. </strong>Untuk melaksanakan inisiasi kerja sama dengan Pemerintah Kota Yogyakarta, <strong>kami persilahkan Anda untuk mengikuti prosedur di bawah ini. Pilihlah sesuai dengan jenis organisasi yang Anda wakili.</strong></h7>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
