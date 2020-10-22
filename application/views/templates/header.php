@@ -34,8 +34,8 @@
               Fasilitas
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">OPD</a>
-              <a class="dropdown-item nav-link" href="<?php base_url() ?>mitra_kerjasama">Mitra</a>
+              <a class="dropdown-item" href="<?php base_url() ?>opd">OPD</a>
+              <a class="dropdown-item" href="<?php base_url() ?>mitra_kerjasama">Mitra</a>
               <a class="dropdown-item" href="#">Informasi Umum</a>
             </div>
           </li>

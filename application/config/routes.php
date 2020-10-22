@@ -54,7 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 //Routing subpage_1
-$route['odp'] = 'odp';
 $route['mitra_kerjasama'] = 'mitra';
 $route['informasi_kerjasama'] = 'informasi_kerjasama';
 $route['konsultasi'] = 'konsultasi';

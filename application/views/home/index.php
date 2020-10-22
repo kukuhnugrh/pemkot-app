@@ -18,25 +18,31 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <span class="fa-stack fa-5x">
-                        <img src="assets/img/Fasilitas_1.png" class="rounded-circle" alt="Cinque Terre" style="width:100%">
-                    </span>
-                    <h4 class="my-3">OPD</h4>
-                    <p class="text-muted">Untuk OPD Pemerintah Kota Yogyakarta</p>
+                    <a href="<?php base_url() ?>opd">
+                        <span class="fa-stack fa-5x">
+                            <img src="assets/img/Fasilitas_1.png" class="rounded-circle" alt="Cinque Terre" style="width:100%">
+                        </span>
+                        <h4 class="my-3">OPD</h4>
+                        <p class="text-muted">Untuk OPD Pemerintah Kota Yogyakarta</p>
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-5x">
-                        <img src="assets/img/Fasilitas_2.png" class="rounded-circle" alt="Cinque Terre" style="width:100%">
-                    </span>
-                    <h4 class="my-3">MITRA KERJA SAMA</h4>
-                    <p class="text-muted">Untuk Pemda lain, Kementrian/Lembaga/Badan, Swasta, Yayasan, Perseorangan, dan Lembaga di Luar Negeri</p>
+                    <a href="<?php base_url() ?>mitra_kerjasama">
+                        <span class="fa-stack fa-5x">
+                            <img src="assets/img/Fasilitas_2.png" class="rounded-circle" alt="Cinque Terre" style="width:100%">
+                        </span>
+                        <h4 class="my-3">MITRA KERJA SAMA</h4>
+                        <p class="text-muted">Untuk Pemda lain, Kementrian/Lembaga/Badan, Swasta, Yayasan, Perseorangan, dan Lembaga di Luar Negeri</p>
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-5x">
-                        <img src="assets/img/Fasilitas_3.png" class="rounded-circle" alt="Cinque Terre" style="width:100%">
-                    </span>
-                    <h4 class="my-3">INFORMASI KERJA SAMA</h4>
-                    <p class="text-muted">Informasi Umum Tentang Kerja Sama Daerah</p>
+                    <a href="#">
+                        <span class="fa-stack fa-5x">
+                            <img src="assets/img/Fasilitas_3.png" class="rounded-circle" alt="Cinque Terre" style="width:100%">
+                        </span>
+                        <h4 class="my-3">INFORMASI KERJA SAMA</h4>
+                        <p class="text-muted">Informasi Umum Tentang Kerja Sama Daerah</p>
+                    </a>
                 </div>
                 <!-- <div class="col-md-3">
                     <span class="fa-stack fa-5x">
